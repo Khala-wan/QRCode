@@ -100,4 +100,6 @@ public struct QRCode {
         
         return colorFilter.outputImage
     }
+    
+    public static var CIContextFactory:(()->CIContext)?
 }
